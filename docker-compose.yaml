@@ -1,0 +1,10 @@
+version: "3"
+services:
+  javaapp:
+    image: javaproj:v2
+    ports:
+      - "8033:8080"
+  javaapp2:
+    image: javaproj:v2
+    ports:
+      - "8022:8080"
